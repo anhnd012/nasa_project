@@ -6,7 +6,7 @@ const {
       
 } = require('../../services/mongo');
 
-const { loadingData } = require('./models/planets.model');
+const { loadingData } = require('../../models/planets.model');
 describe('Launches API', () => {
     beforeAll(async () => {
         await mongoConnect();
