@@ -6,7 +6,6 @@ const {
       
 } = require('../../services/mongo');
 
-const { loadLaunchData } = require('./models/launches.model');
 const { loadingData } = require('./models/planets.model');
 describe('Launches API', () => {
     beforeAll(async () => {
